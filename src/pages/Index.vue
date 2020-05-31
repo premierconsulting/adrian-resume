@@ -43,7 +43,7 @@
         <li class="job">
           <h4>JT4 LLC</h4>
           <h5>Embedded Engineering Intern</h5>
-          <span class="range">October 2015 — August 2019</span>
+          <span class="range">January 2014 — May 2015</span>
           <ul class="responsibilities">
             <li>Built web interface to monitor and configure FPGA based system via UDP</li>
             <li>Developed onboard server in C to accept firmware via HTTP</li>
@@ -53,7 +53,7 @@
         <li class="job">
           <h4>Fandeavor Inc</h4>
           <h5>Software Developer</h5>
-          <span class="range">October 2015 — August 2019</span>
+          <span class="range">August 2012 — December 2013</span>
           <ul class="responsibilities">
             <li>Created Django web pages to allow users to view and book full sports packages including event tickets, hotels, and flights.</li>
             <li>Implemented Python interfaces for external SOAP, and REST flight and payment APIs (SkyScanner, Stripe)</li>
@@ -64,7 +64,7 @@
         <li class="job">
           <h4>Zappos</h4>
           <h5>Software Engineering Intern</h5>
-          <span class="range">October 2015 — August 2019</span>
+          <span class="range">July 2012 — August 2012</span>
           <ul class="responsibilities">
             <li>Created Java backend service to sanitize and filter profane reviews</li>
             <li>Lead interdisciplinary team to design service endpoints and consumption by frontend</li>
