@@ -17,11 +17,12 @@
     <section class="skills">
       <h3>Skills</h3>
       <ul>
-        <li><span>Java</span> (Spring MVC, Spring Boot, JDBC, JPA, JUnit, Mockito)</li>
-        <li><span>Python</span> (Django, REST Framework, PyTest)</li>
-        <li><span>AWS</span> (EC2, ECS, Beanstalk, SQS, Lambda, CloudFormation)</li>
-        <li><span>JS</span> (Express, Vue, React)</li>
-        <li><span>Databases</span> (DynamoDB, Postgres, MySQL, Couchbase)</li>
+        <li><span>Python</span> Django, REST Framework, Flask, SQLAlchemy, PyTest</li>
+        <li><span>Java</span> Spring MVC, Spring Boot, JDBC, JPA, JUnit, Mockito</li>
+        <li><span>JavaScript</span> Node, Express, Vue, React</li>
+        <li><span>AWS</span> EC2, ECS, Beanstalk, Lambda, CloudFormation</li>
+        <li><span>Cloud</span> Nginx, Redis, Memcached, Celery </li>
+        <li><span>Databases</span> Postgres, DynamoDB, MongoDB, MySQL, Couchbase</li>
         <li>Docker, C#, C++, Kotlin, REST, SOAP, GRPC, TDD, Certified ScrumMaster</li>
       </ul>
     </section>
@@ -45,8 +46,8 @@
           <h5>Embedded Engineering Intern</h5>
           <span class="range">January 2014 — May 2015</span>
           <ul class="responsibilities">
-            <li>Built web interface to monitor and configure FPGA based system via UDP</li>
-            <li>Developed onboard server in C to accept firmware via HTTP</li>
+            <li>Built web interface to monitor and configure FPGA based system with web sockets (UDP)</li>
+            <li>Developed onboard server in C implementing HTTP to accept firmware</li>
             <li>Executed large functional test plan with automation and nightly reports</li>
           </ul>
         </li>
@@ -62,7 +63,7 @@
           </ul>
         </li>
         <li class="job">
-          <h4>Zappos</h4>
+          <h4>Zappos Inc</h4>
           <h5>Software Engineering Intern</h5>
           <span class="range">July 2012 — August 2012</span>
           <ul class="responsibilities">
@@ -90,6 +91,10 @@ export default {
   padding: 0;
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-color: #efefef;
 }
 
 .container {
@@ -209,6 +214,10 @@ header {
         margin-bottom: 5px;
         display: inline-block;
         margin-bottom: 5px;
+      }
+
+      .range {
+        margin-bottom: 10px;
       }
 
       .responsibilities {
