@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-boxlocal;
+  font-family: "Roboto", serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: #C1AF6D;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+header h1, header span {
+  color: #A73E31;
+  font-size: 3rem;
+  margin-left: 15px;
+}
+header span {
+  font-weight: 900;
+}
+header a:hover {
+  color: rgba(167, 62, 49, 0.5);
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: #A73E31;
+  display: flex;
+  flex-direction: column;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.sample-container {
+  color: #A73E31;
+  flex: 1;
+}
+.sample-container .sample {
+  background-color: white;
+  width: 95%;
+  margin: 20px auto;
+  height: 90%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+}
+.sample-container .sample .sample-header {
+  flex: 1;
+  height: 40px;
+  border-bottom: 5px solid #C1AF6D;
+  display: flex;
+  align-items: center;
+}
+.sample-container .sample .sample-header h2 {
+  font-size: 2rem;
+  margin-left: 20px;
+}
+.sample-container .sample .sample-body {
+  flex: 5;
+  display: flex;
+}
+.sample-container .sample .sample-body p {
+  width: 90%;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 30px auto;
+}
+
+.button-container {
+  height: 100px;
+  background-color: #A73E31;
+}
+.button-container .buttons {
+  width: 70%;
+  height: 90%;
+  margin: auto;
+  background-color: #A73E31;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 500px;
+}
+.button-container .buttons a {
+  margin: 5px 0;
+  background-color: #C1AF6D;
+  color: #A73E31;
+  font-size: 1.5rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button-container .buttons a:hover {
+  background-color: rgba(193, 175, 109, 0.75);
+}
+.button-container .buttons a:first-child {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-right: 2px solid #A73E31;
+}
+.button-container .buttons a:nth-child(2) {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.button-container .buttons a p {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+/*# sourceMappingURL=/work.dae09d53.css.map */
